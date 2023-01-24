@@ -11,7 +11,7 @@ export default function Portfolio() {
               <h2 className="heading mb-2 text-center sm:text-start">Portfolio</h2>
               <p className="paragraph text-justify">Currently I am building out many cool projects to add up to my list. So make sure to keep a check on it.</p>
             </div>
-            <a className="flex flex-row items-center ml-auto md:ml-0 gap-1 text-2xl font-bold text-white py-3 px-6 w-min h-min rounded-md color-button cursor-pointer" target="_blank" href="https://github.com/DarkDev56">
+            <a className="flex flex-row items-center ml-auto md:ml-0 gap-1 text-2xl font-bold text-white py-3 px-6 w-min h-min rounded-md color-button cursor-pointer" target="_blank" href="https://github.com/dotfivesix">
               <AiFillGithub size={30}/>
               <span>Github</span>
             </a>
