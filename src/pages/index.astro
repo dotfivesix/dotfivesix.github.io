@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import About from "../containers/About";
+import Footer from "../containers/Footer";
+import Header from "../containers/Header";
+import Hero from "../containers/Hero";
+import Portfolio from "../containers/Portfolio";
+import Services from "../containers/Services";
+import Skills from "../containers/Skills";
+import "../base.css"
+---
+
+<Layout title="DarkDev | Frontend Web Developer">
+	<div>
+		<Header client:load />
+		<Hero client:load />
+	</div>
+	<main class="relative z-[1]">
+		<About client:load />
+		<Skills client:load />
+		<Portfolio client:load />
+		<Services client:load />
+		<Footer client:load />
+	</main>
+</Layout>

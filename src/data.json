@@ -1,0 +1,122 @@
+{
+    "skills" : [
+        {
+            "name": "HTML5",
+            "file": "html.svg"
+        },
+        {
+            "name": "CSS3",
+            "file": "css.svg"
+        },
+        {
+            "name": "Javascript",
+            "file": "js.svg"
+        },
+        {
+            "name": "SCSS",
+            "file": "sass.svg"
+        },
+        {
+            "name": "Typescript",
+            "file": "ts.svg"
+        },
+        {
+            "name": "Tailwind",
+            "file": "tailwind.svg"
+        },
+        {
+            "name": "MongoDB",
+            "file": "mongodb.svg"
+        },
+        {
+            "name": "NextJS",
+            "file": "nextjs.svg"
+        },
+        {
+            "name": "PostCSS",
+            "file": "postcss.svg"
+        },
+        {
+            "name": "ReactJS",
+            "file": "reactjs.svg"
+        },
+        {
+            "name": "Git",
+            "file": "git.svg"
+        },
+        {
+            "name": "Python",
+            "file": "python.svg"
+        },
+        {
+            "name": "DisordJS",
+            "file": "discordjs.png"
+        },
+        {
+            "name": "ExpressJS",
+            "file": "expressjs.svg"
+        },
+        {
+            "name": "NPM",
+            "file": "npm.svg"
+        },
+        {
+            "name": "NodeJS",
+            "file": "nodejs.svg"
+        },
+        {
+            "name": "Github",
+            "file": "github.svg"
+        },
+        {
+            "name": "Bash",
+            "file": "bash.svg"
+        },
+        {
+            "name": "Illustrator",
+            "file": "ai.svg"
+        },
+        {
+            "name": "Figma",
+            "file": "figma.svg"
+        },
+        {
+            "name": "Photoshop",
+            "file": "ps.svg"
+        }
+    ],
+    "portfolios" : [
+        {
+            "image": "loopstudios-landing-page.webp",
+            "title": "Loopstudios Landing Page",
+            "description": "Company landing page with hero, about and creations sections designed with black and white modern UI.",
+            "technologies": ["HTML5","CSS3","JS","SASS"],
+            "source": "https://github.com/dotfivesix/loopstudios-landing-page",
+            "link": "https://dotfivesix.github.io/loopstudios-landing-page/"
+        },
+        {
+            "image": "web-and-dev-agency-landing-page.webp",
+            "title": "Design Master Landing Page",
+            "description": "Homepage of an agency with 8+ sections, scroll animations, cool hover effects and google maps integrated.",
+            "technologies": ["HTML5","CSS3","Tailwind","JS"],
+            "source": "https://github.com/dotfivesix/web-and-app-dev-agency-landing-page",
+            "link": "https://dotfivesix.github.io/web-and-app-dev-agency-landing-page/"
+        },
+        {
+            "image": "insure-landing-page.webp",
+            "title": "Insure Landing Page",
+            "description": "Company landing page with hero, cards, work and amazing footer section with aesthetic modern UI.",
+            "technologies": ["HTML5","CSS3","JS","SASS"],
+            "source": "https://github.com/dotfivesix/insure-landing-page",
+            "link": "https://dotfivesix.github.io/insure-landing-page/"
+        },
+        {
+            "image": "clipboard-landing-page.webp",
+            "title": "Clipboard Landing Page",
+            "description": "Company landing page with hero, downloads, users and features section designed with aesthetic modern UI..",
+            "technologies": ["HTML5","CSS3","Tailwind"],
+            "source": "https://github.com/dotfivesix/clipboard-landing-page",
+            "link": "https://dotfivesix.github.io/clipboard-landing-page/"
+        }
+    ]
+}

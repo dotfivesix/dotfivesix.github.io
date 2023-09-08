@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base
+{
+    .base-gradient
+    {
+        @apply bg-gradient-to-r from-cyan-400 via-purple-500 to-red-500;
+    }
+}
+
+@layer components
+{
+    .color-button
+    {
+        @apply text-white font-inter capitalize flex justify-center items-center base-gradient font-semibold rounded-sm cursor-pointer relative z-[1] before:content-[''] before:absolute before:w-full before:h-full before:base-gradient before:blur-md before:opacity-0 before:z-[-1] hover:before:opacity-50;
+    }
+    .bw-button
+    {
+        @apply text-white font-inter capitalize flex justify-center items-center bg-gradient-to-r from-neutral-700 via-neutral-800 to-neutral-900 font-semibold rounded-sm cursor-pointer relative z-[1] before:content-[''] before:absolute before:w-full before:h-full before:bg-white before:blur-md before:opacity-0 before:z-[-1] hover:before:opacity-10;
+
+    }
+    .heading
+    {
+        @apply text-4xl font-poppins font-bold uppercase;
+    }
+    .sub-heading
+    {
+        @apply text-xl font-inter font-bold uppercase;
+    }
+    .paragraph
+    {
+        @apply text-neutral-900 font-dm-sans text-lg;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+   
+::-webkit-scrollbar-thumb {
+background: #888; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
